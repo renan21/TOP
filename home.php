@@ -6,23 +6,23 @@
 		
 		SESSION_START();
 		
-		@$log = $_SESSION['login_user'];
-		@$pass = $_SESSION['senha_user'];
-	
-		$sql = mysqli_query($link, "SELECT * FROM usuarios WHERE nome = '$log' and senha = '$pass'");
-
-		while ($exibe = mysqli_fetch_array ($sql)) {
-		
-			$login = $exibe['nome'];
-			$senha = $exibe['senha'];	
-			
-		}
-				
-		if($login != "" && $senha != ""){
-
-		} else {
-			header('location:../index.php');
-		}
+//		$log = $_SESSION['login_user'];
+//		$pass = $_SESSION['senha_user'];
+//	
+//		$sql = mysqli_query($link, "SELECT * FROM usuarios WHERE nome = '$log' and senha = '$pass'");
+//
+//		while ($exibe = mysqli_fetch_array ($sql)) {
+//		
+//			$login = $exibe['nome'];
+//			$senha = $exibe['senha'];	
+//			
+//		}
+//				
+//		if($login != "" && $senha != ""){
+//
+//		} else {
+//			header('location:../index.php');
+//		}
 	?>
  
 	<body>

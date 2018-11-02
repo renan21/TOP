@@ -2,8 +2,6 @@
 	$host = "localhost";
 	$user = "root";
 	$pass = "";
-	$base = "bancotop";
-	$link = mysqli_connect($host, $user, $pass, $base);
-
-	
+	$base = "u595814654_top";
+	$link = mysqli_connect($host, $user, $pass, $base);	
 ?>
