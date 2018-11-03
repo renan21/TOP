@@ -86,7 +86,10 @@ button.salvar{
 	height:5%;
 	margin-top:4%;
 	margin-left:2%;
-	background-color:#ffbe75;
+	background-color:#fff;
+	border: 1px solid #6c757d82;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #343a4061;
 }
 
 #bloco-esquerdo{	
@@ -95,7 +98,10 @@ button.salvar{
 	height:82%;
 	margin-top:9%;
 	margin-left:2%;
-	background-color:#ffbe75;
+	background-color:#fff;
+	border: 1px solid #6c757d82;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #343a4061;
 }
 #bloco-direito{	
 	position:absolute;
@@ -103,7 +109,10 @@ button.salvar{
 	height:82%;
 	margin-top:9%;
 	margin-left:38%;
-	background-color:#ffbe75;
+	background-color:#fff;
+	border: 1px solid #6c757d82;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #343a4061;
 }
 #export{
 	position:absolute;
@@ -166,17 +175,21 @@ button.botao{
 }
 
 
-input.endcli{
-	width:100%;
+input.cli{
+	width:98.5%;
+}
+input.end{
+	width:96%;
 }
 
 input.td_esquerdo{
-	width:100%;
+	width:96%;
 }
 
-input.desc{
-	width:100%;
-	height:280px;
+textarea.desc {
+	width: 590px;
+	height: 300px;
+	resize: none;
 }
 
 input.inp_sel{

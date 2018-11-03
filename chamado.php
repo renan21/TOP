@@ -21,11 +21,12 @@
 				<tr>
 					<td>Solicitante:</td>
 					<td><input class="inp_sel"></td>
-				</tr>				
+				</tr>
+				<tr>				
 					<td>Prioridade:</td>
 					<td><select class="inp_sel"></td>
 				</tr>
-				</tr>				
+				<tr>				
 					<td>Descrição:</td>
 					<td><input class="inp_sel"></td>
 				</tr>
