@@ -82,7 +82,8 @@ button.salvar{
         margin: 10px auto;
 /*	margin-top:4%;
 	margin-left:2%;*/
-	background-color:#ffbe75;
+	background-color: white; 
+        border: 1px solid #cccccc;
 }
 
 #menu th {
@@ -204,6 +205,7 @@ button#pesquisar {
     position: absolute;
     margin-left: 69.5%;
 }
+
 button#Limpar {
     position: absolute;
     margin-left: 3.5%;

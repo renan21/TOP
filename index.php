@@ -5,9 +5,9 @@
     <body>
         <div style="height: 100vh; margin-right: 0px;" class="row">
             <div class="col-md-6">
-                <center>
-                    <img style="width: 200px; margin-bottom: 50%; margin-top: 50%;" src="img/logoTop.png">
-                </center>
+                <div style="width: 200px; height: 200px; margin: 200px auto;">
+                    <img style="width: 200px; margin: 0 auto;" src="img/logoTop.png">
+                </div>
                 <table style="position: absolute; bottom: 0; width: calc(100% - 15px);">
                     <tr>
                         <th style="text-align: center; width: 50%;">Sobre</th>
