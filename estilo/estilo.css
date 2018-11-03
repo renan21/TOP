@@ -1,0 +1,232 @@
+@charset "utf-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+.logar {
+	position:absolute;
+	margin-left:60%;
+	margin-top:30%;
+	z-index:1;
+}
+
+#chamados {
+	position:absolute;
+	margin-top:20%;
+	margin-left:40%;
+}
+#tela{
+  position:fixed;
+  width:42%;
+  height:100%;
+  background-color:#f0932b;  
+  margin-left:58%;
+}
+
+
+#logar{
+	position:absolute;
+	margin-left:68%;
+	margin-top:20%;
+	z-index:1;
+}
+#texto{
+	position:absolute;
+	margin-left:2%;
+	margin-top:60%;	
+}
+button.salvar{
+	width:80%;
+}
+#barra{
+	position:absolute;
+	width:100%;
+	height:5%;
+	background-color:#f0932b;
+}
+
+#menu{	
+	position:absolute;
+	width:96%;
+	height:5%;
+	margin-top:4%;
+	margin-left:2%;
+	background-color:#fff;
+	border: 1px solid #6c757d82;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #343a4061;
+}
+
+#bloco-esquerdo{	
+	position:absolute;
+	width:35%;
+	height:82%;
+	margin-top:9%;
+	margin-left:2%;
+	background-color:#fff;
+	border: 1px solid #6c757d82;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #343a4061;
+}
+#bloco-direito{	
+	position:absolute;
+	width:60%;
+	height:82%;
+	margin-top:9%;
+	margin-left:38%;
+	background-color:#fff;
+	border: 1px solid #6c757d82;
+    border-radius: 10px;
+    box-shadow: 0 0 0.5em #343a4061;
+}
+#export{
+	position:absolute;
+	margin-top:4%;
+	margin-left:5%;
+	width:86%;
+	text-align:center;
+}
+div#dados {
+	
+	margin-top: -25%;
+
+}
+table.direita {
+	width:98%;
+    margin-top: 2%;
+	margin-left:1%;
+}
+table.esquerda{
+	width:96%;
+	margin-left:2%;
+	margin-top:2%;
+}
+td.cabecalho {
+    text-align: center;
+}
+table.chamado{	
+	position:absolute;
+	width:78%;
+	margin-top:40%;
+	margin-left:10%;
+	background: #FFF}
+	
+tr.chamado:nth-child(odd) {background: #EEE}	
+
+
+table.logar {
+	position:absolute;
+	margin-left:60%;
+	margin-top:30%;
+	z-index:1;
+}
+table.notas{
+	position:absolute;
+	margin-left:6%;
+	margin-top:2%;
+	background:#FFF;
+	width: 88%;
+    border: solid 1px;
+}
+
+
+table tr {
+    border-bottom: solid #21252900 5px ;	
+}
+
+button.botao{
+	margin-left: 35%;
+	width:50%;
+}
+
+
+input.cli{
+	width:98.5%;
+}
+input.end{
+	width:96%;
+}
+
+input.td_esquerdo{
+	width:96%;
+}
+
+textarea.desc {
+	width: 590px;
+	height: 300px;
+	resize: none;
+}
+
+input.inp_sel{
+	width:100%;
+}
+select.inp_sel{
+	width:100%;
+	height:32px;
+
+}
+td.salvar{
+	padding-left: 20%;
+	padding-top:28%;
+}
+
+img{
+	position:absolute;
+	margin-top:21%;
+	margin-left:15%;
+	width:20%;
+}
+
+img.menu {
+    width: 3%;
+    position: absolute;
+    margin-top: 0.3%;
+	margin-left:80%;
+}
+
+a {
+    padding: 25px 70px 75px 100px;
+}
+button#pesquisar {
+    position: absolute;
+    margin-left: 69.5%;
+}
+button#Limpar {
+    position: absolute;
+    margin-left: 3.5%;
+}
