@@ -7,7 +7,7 @@
         <?php include('php/barra.php');?>
         <div class="row" style="width: 96%; margin: 0 auto;">
             <div class="col-md-4" style="padding: 5px">
-                <div style="background-color: white; border: 1px solid #cccccc;">
+                <div class="menuCadEsq" style="background-color: white; border: 1px solid #cccccc;">
                     <table class="table-select">
                         <tr>
                             <td idform="cad_empresa">
@@ -42,7 +42,7 @@
                 </div>
             </div>
             <div class="col-md-8" style="padding: 5px">
-                <div style="background-color: white; border: 1px solid #cccccc; padding: 20px;">
+                <div class="menuCadDir" style="background-color: white; border: 1px solid #cccccc; padding: 20px;">
                     
                     <form id="cad_empresa" action="php/cadastrar_empresa.php" method="POST">
                         <h1>Empresa</h1>

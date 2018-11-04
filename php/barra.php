@@ -3,19 +3,15 @@
                     <table id='menu'>
                         <tr>
                             <th>
-                                <a href='home.php'>Início</a>
-                            </th>
-                            <th>
-                                <a href='novo_chamado.php'>Novo chamado</a>
-                            </th>
-                            <th>
-                                <a href='exportar.php'>Relatórios</a>	
-                            </th>
-                            <th>
-                                <a href='cadastrar.php'>Cadastrar</a>	
-                            </th>
-                            <th>
-                                <a href='php/logout.php'>Sair</a>
+                                <a class='titulos' href='home.php'>Início</a>
+                           
+                                <a class='titulos' href='novo_chamado.php'>Novo chamado</a>
+                            
+                                <a class='titulos' href='exportar.php'>Relat�rios</a>	
+                           
+                                <a class='titulos' href='cadastrar.php'>Cadastrar</a>	
+                            
+                                <a class='titulos' href='php/logout.php'>Sair</a>
                             </th>
                         </tr>
                     </table>

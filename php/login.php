@@ -8,7 +8,7 @@
     }else{
         include "conexao.php";
 
-        $sql = mysqli_query($link, "SELECT * FROM usuarios WHERE NOME = '$login' and senha = '$senha'");
+        $sql = mysqli_query($link, "SELECT * FROM usuarios WHERE nome = '$login' and senha = '$senha'");
 
         while ($exibe = mysqli_fetch_array($sql)) {
             $login_banco = $exibe['nome'];

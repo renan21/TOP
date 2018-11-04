@@ -83,27 +83,32 @@ button.salvar{
 #menu{	
 	position:absolute;
 	width:96%;
-<<<<<<< HEAD
-	height:50px;
-        margin: 10px auto;
-/*	margin-top:4%;
-	margin-left:2%;*/
+/*	height:50px; */
+    margin: 10px auto;
+	margin-top:4%;
+	margin-left:2%;
 	background-color: white; 
-        border: 1px solid #cccccc;
+/*  border: 1px solid #cccccc; */
 }
 
 #menu th {
     text-align: center;
-    width: 20%;
-=======
+/*  width: 20%;
 	height:5%;
 	margin-top:4%;
-	margin-left:2%;
+	margin-left:2%; */
 	background-color:#fff;
-	border: 1px solid #6c757d82;
+/*	border: 1px solid #6c757d82;  */
     border-radius: 10px;
     box-shadow: 0 0 0.5em #343a4061;
->>>>>>> 135d5a562f52faf968087d4ff555ff323b80ee28
+}
+
+.menuCadEsq {
+    margin-top: 30%;
+}
+
+.menuCadDir {
+    margin-top: 15%;
 }
 
 #bloco-esquerdo{	
@@ -142,7 +147,7 @@ div#dados {
 }
 table.direita {
 	width:98%;
-    margin-top: 2%;
+    margin-top: 6%;
 	margin-left:1%;
 }
 table.esquerda{
@@ -165,8 +170,8 @@ tr.chamado:nth-child(odd) {background: #EEE}
 
 table.logar {
 	position:absolute;
-	margin-left:60%;
-	margin-top:30%;
+	margin-left:30%;
+	margin-top:50%;
 	z-index:1;
 }
 table.notas{
@@ -233,9 +238,17 @@ img.menu {
 	margin-left:80%;
 }
 
+/*
 a {
-    padding: 25px 70px 75px 100px;
+    padding: 10px 10px 10px 10px;
+}	
+
+*/
+a.titulos {
+    padding: 0px 50px 0px 50px;
 }
+
+
 button#pesquisar {
     position: absolute;
     margin-left: 69.5%;
